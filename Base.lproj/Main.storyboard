@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="0cc-yD-ebU">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Card Game View Controller - CardGame-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController title="CardGame" id="vXZ-lx-hvc" customClass="CardGameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h9V-hb-Wa9"/>
+                        <viewControllerLayoutGuide type="bottom" id="iF7-u1-DMB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGK-AM-4EP">
+                                <rect key="frame" x="24" y="38" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NZY-ZC-ZJZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPi-Ae-qNS">
+                                <rect key="frame" x="80" y="38" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kp9-jq-Kam"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3d-YT-TL3">
+                                <rect key="frame" x="136" y="38" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8Vc-FB-PEQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6s3-xp-PKr">
+                                <rect key="frame" x="192" y="38" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Chv-ee-oit"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOw-Db-ZBY">
+                                <rect key="frame" x="248" y="38" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NcT-rh-DFg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYX-mD-Nfl">
+                                <rect key="frame" x="24" y="106" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Nxm-kd-8xe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLV-JB-1mb">
+                                <rect key="frame" x="80" y="106" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1cF-KF-oqu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXl-qg-WKA">
+                                <rect key="frame" x="136" y="106" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="T9E-cc-Vok"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7am-mK-UQk">
+                                <rect key="frame" x="192" y="106" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yjS-Jc-LE3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0v-ld-gZW">
+                                <rect key="frame" x="248" y="106" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Izy-VM-Lwu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DS-yB-Uic">
+                                <rect key="frame" x="24" y="174" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yqc-J3-7DA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Tz-bB-trL">
+                                <rect key="frame" x="80" y="174" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="m7H-7G-0je"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nq5-oQ-7UG">
+                                <rect key="frame" x="136" y="174" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="i90-RJ-LBe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4D-KM-w21">
+                                <rect key="frame" x="192" y="174" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qgV-RC-v0y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojb-XP-b4X">
+                                <rect key="frame" x="248" y="174" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3FZ-C4-tS8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkM-fy-LJ3">
+                                <rect key="frame" x="24" y="242" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="z2j-pO-4OR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ld0-0S-k1V">
+                                <rect key="frame" x="80" y="242" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IbQ-zb-9Pz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0u-R3-BHA">
+                                <rect key="frame" x="136" y="242" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Juw-f4-85n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7D-qs-Zbp">
+                                <rect key="frame" x="192" y="242" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="216-Es-qRS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMg-T5-FRu">
+                                <rect key="frame" x="248" y="242" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uzq-qa-Av7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9s-0d-nuj">
+                                <rect key="frame" x="24" y="310" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ec9-as-DiK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mp2-rp-A3u">
+                                <rect key="frame" x="80" y="310" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nw7-Mx-c1g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gE7-2q-gJs">
+                                <rect key="frame" x="136" y="310" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="isZ-NS-KCR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LH-Jj-nzB">
+                                <rect key="frame" x="192" y="310" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="C2k-0s-W2e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHM-ys-Uo3">
+                                <rect key="frame" x="248" y="310" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QAd-Xb-7bG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KK9-nf-UEo">
+                                <rect key="frame" x="24" y="378" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vLl-bi-Vi7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPv-nJ-7rN">
+                                <rect key="frame" x="80" y="378" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LfV-WW-wl0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YX-4E-97H">
+                                <rect key="frame" x="136" y="378" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7lG-uE-Nnn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2i-mf-FAI">
+                                <rect key="frame" x="192" y="378" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XyB-yi-krU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dJ-Mp-G99">
+                                <rect key="frame" x="248" y="378" width="48" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title=""/>
+                                <connections>
+                                    <action selector="flipUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yuQ-X4-SSs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flips:  0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7r4-co-d6S">
+                                <rect key="frame" x="20" y="489" width="80" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score:  0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XB2-0h-Prg">
+                                <rect key="frame" x="199" y="489" width="101" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Game" id="I2U-Vo-2X3"/>
+                    <connections>
+                        <outlet property="flipCountLabel" destination="7r4-co-d6S" id="34g-CF-u9C"/>
+                        <outlet property="scoreLabel" destination="XB2-0h-Prg" id="rUb-LA-Zbx"/>
+                        <outletCollection property="cardButtons" destination="x9s-0d-nuj" id="dAY-Qz-BSy"/>
+                        <outletCollection property="cardButtons" destination="gYX-mD-Nfl" id="hSd-hc-O6p"/>
+                        <outletCollection property="cardButtons" destination="gE7-2q-gJs" id="9Ng-ck-rK1"/>
+                        <outletCollection property="cardButtons" destination="BHM-ys-Uo3" id="PBN-gd-gQT"/>
+                        <outletCollection property="cardButtons" destination="nq5-oQ-7UG" id="qLT-Uo-PDo"/>
+                        <outletCollection property="cardButtons" destination="Z3d-YT-TL3" id="KRe-pd-3MF"/>
+                        <outletCollection property="cardButtons" destination="GLV-JB-1mb" id="GWT-DH-2Q4"/>
+                        <outletCollection property="cardButtons" destination="j0v-ld-gZW" id="xr1-Sr-RkF"/>
+                        <outletCollection property="cardButtons" destination="4Tz-bB-trL" id="bSl-Em-sq2"/>
+                        <outletCollection property="cardButtons" destination="S4D-KM-w21" id="r4p-Ae-4lb"/>
+                        <outletCollection property="cardButtons" destination="EPv-nJ-7rN" id="f8D-4m-5ud"/>
+                        <outletCollection property="cardButtons" destination="TMg-T5-FRu" id="tSF-BD-P6E"/>
+                        <outletCollection property="cardButtons" destination="KK9-nf-UEo" id="7Vb-eV-Tfz"/>
+                        <outletCollection property="cardButtons" destination="LPi-Ae-qNS" id="fBG-2g-2ty"/>
+                        <outletCollection property="cardButtons" destination="2DS-yB-Uic" id="OqM-KF-vTJ"/>
+                        <outletCollection property="cardButtons" destination="1dJ-Mp-G99" id="7et-sP-9TR"/>
+                        <outletCollection property="cardButtons" destination="Ld0-0S-k1V" id="4Z4-51-bwU"/>
+                        <outletCollection property="cardButtons" destination="bXl-qg-WKA" id="0nh-5G-ZlK"/>
+                        <outletCollection property="cardButtons" destination="j0u-R3-BHA" id="yFJ-uj-g95"/>
+                        <outletCollection property="cardButtons" destination="mp2-rp-A3u" id="YBQ-a2-oq0"/>
+                        <outletCollection property="cardButtons" destination="0YX-4E-97H" id="rqc-ED-bde"/>
+                        <outletCollection property="cardButtons" destination="6s3-xp-PKr" id="JqA-Jp-OPp"/>
+                        <outletCollection property="cardButtons" destination="o2i-mf-FAI" id="aNM-ss-EPl"/>
+                        <outletCollection property="cardButtons" destination="ojb-XP-b4X" id="TpU-0J-hzo"/>
+                        <outletCollection property="cardButtons" destination="gOw-Db-ZBY" id="0wH-Au-nwX"/>
+                        <outletCollection property="cardButtons" destination="pkM-fy-LJ3" id="zkj-aF-dXz"/>
+                        <outletCollection property="cardButtons" destination="h7D-qs-Zbp" id="X4J-g8-W8x"/>
+                        <outletCollection property="cardButtons" destination="wGK-AM-4EP" id="CDt-Lu-Wmk"/>
+                        <outletCollection property="cardButtons" destination="7am-mK-UQk" id="t9Z-kV-Fuv"/>
+                        <outletCollection property="cardButtons" destination="8LH-Jj-nzB" id="6kC-vP-LuX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="250" y="-10"/>
+        </scene>
+        <!--Card Game Result View Controller - Result-->
+        <scene sceneID="B3c-6w-bFH">
+            <objects>
+                <viewController id="lZN-PZ-XlL" customClass="CardGameResultViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qfv-fM-Ofx"/>
+                        <viewControllerLayoutGuide type="bottom" id="a4W-Xd-La2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Rd-NY-U64">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Score: 25 (1/22/13 4:00pm, 35s)" translatesAutoresizingMaskIntoConstraints="NO" id="0Am-zS-hSB">
+                                <rect key="frame" x="0.0" y="29" width="320" height="433"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWY-gI-Tf2">
+                                <rect key="frame" x="20" y="470" width="70" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="By Date">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huG-EW-rdw">
+                                <rect key="frame" x="109" y="470" width="81" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="By Score">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKe-Nm-KjA">
+                                <rect key="frame" x="198" y="470" width="102" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="By Duration">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Result" id="tDb-rJ-3ry"/>
+                    <connections>
+                        <outlet property="display" destination="0Am-zS-hSB" id="bOd-J7-ltg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z9I-Bu-w4c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="250" y="681"/>
+        </scene>
+        <!--Game Tab Bar Controller-->
+        <scene sceneID="vLb-d8-I9S">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="0cc-yD-ebU" customClass="GameTabBarController" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="cXS-vy-lhT">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="DbN-gK-RFR"/>
+                        <segue destination="lZN-PZ-XlL" kind="relationship" relationship="viewControllers" id="3z5-M6-3QM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KoA-y5-4NM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-275" y="230"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
